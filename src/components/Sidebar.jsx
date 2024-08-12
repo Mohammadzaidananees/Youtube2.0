@@ -21,7 +21,7 @@ const Categories = ({ selectedCategory, setSelectedCategory }) => (
           color: "white",
         }}
         key={category.name}
-      >
+      >npm run build
         <span style={{ color: category.name === selectedCategory ? "white" : "red", marginRight: "15px" }}>
           {category.icon}
         </span>
